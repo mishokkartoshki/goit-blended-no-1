@@ -45,8 +45,6 @@ button {
 }
 
 /* HEADER */
-.header {}
-
 .header-container {
     display: flex;
     align-items: center;
@@ -91,8 +89,6 @@ button {
     display: flex;
     gap: 21px;
 }
-
-.header-btn-item {}
 
 .header-btn {
     font-family: inherit;
@@ -145,8 +141,6 @@ button {
     display: flex;
     gap: 30px;
 }
-
-.hero-list-item {}
 
 .hero-btn {
     font-weight: 700;
