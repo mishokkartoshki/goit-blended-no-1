@@ -192,6 +192,10 @@ button {
     margin-bottom: 13px;
 }
 
+.feature-list-item {
+    width: calc((100% - 90px)/4);
+}
+
 .feature-item-text {
     max-width: 255px;
 }
