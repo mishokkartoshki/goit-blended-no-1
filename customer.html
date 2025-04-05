@@ -3,26 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business promotion - Customers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Business promotion</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
-        Product
-      </a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="logo">
+          <svg class="icon-logo" width="40" height="36">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+          Product
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link current" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./customer.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign In</button>
+          </li>
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section class="promo-section">
+        <div class="container promo-container">
+          <div class="promo-content-box">
+            <div class="promo-text-box">
+              <h2 class="promo-title">
+                Join 100 Compannies who boost their business with Product
+              </h2>
+              <button type="button" class="promo-btn">Get This</button>
+            </div>
+            <img
+              src="./images/promo-img.png"
+              alt="Promo Image"
+              width="351"
+              height="331"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="container footer-container">
+        <div class="footer-upper">
+          <div class="footer-socials-box">
+            <a href="./index.html" class="logo footer-logo">
+              <svg class="icon-logo" width="40" height="36">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              Product
+            </a>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg
+                    class="footer-icon icon-instagram"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-icon icon-facebook" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-icon icon-twitter" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h4 class="footer-subtitle">
+                  <a href="" class="footer-nav-link">Resource</a>
+                </h4>
+                <ul>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">About Us</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Blog</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Contact</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-nav-item">
+                <h4 class="footer-subtitle">
+                  <a href="" class="footer-nav-link">Legal Stuff</a>
+                </h4>
+                <ul>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Disclaimer</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Financing</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Privacy Policy</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-form-box">
+            <p class="footer-form-title">
+              knowing you're always on the best energy deal.
+            </p>
+            <form class="footer-form">
+              <label for="user-tel" class="footer-input-label">
+                <input
+                  type="tel"
+                  name="user-tel"
+                  id="user-tel"
+                  class="footer-form-input"
+                  placeholder="Enter your phone number"
+                />
+                <svg class="icon-mobile-screen" width="16" height="24">
+                  <use href="./images/icons.svg#icon-mobile-screen"></use>
+                </svg>
+              </label>
+              <button type="submit" class="footer-form-btn">Sign up Now</button>
+            </form>
+          </div>
+        </div>
+        <p class="footer-ps">Made With Love By Figmaland All Right Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

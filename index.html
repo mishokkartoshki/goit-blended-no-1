@@ -23,7 +23,9 @@
     <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="logo">
-          <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
+          <svg class="icon-logo" width="40" height="36">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
           Product
         </a>
         <nav class="header-nav">
@@ -67,16 +69,18 @@
                 <button class="hero-btn" type="button">Get started</button>
               </li>
               <li class="hero-list-item">
-                <button class="hero-btn" type="button">Watch the Video</button>
+                <button class="hero-btn" type="button">
+                  <svg class="icon-video" width="16" height="18">
+                    <use href="./images/icons.svg#icon-video"></use>
+                  </svg>
+                  Watch the Video
+                </button>
               </li>
             </ul>
           </div>
-          <img
-            src="./images/hero-img.svg"
-            alt="Hero"
-            width="610"
-            height="555"
-          />
+          <svg class="icon-hero-img" width="610" height="555">
+            <use href="./images/icons.svg#icon-hero-img"></use>
+          </svg>
         </div>
       </section>
       <!-- FEATURE -->
@@ -85,48 +89,44 @@
           <h2 class="feature-title">Product was Built Specifically for You</h2>
           <ul class="feature-list">
             <li class="feature-list-item">
-              <img
-                src="./images/first-click-tests.svg"
-                alt="First click tests"
-                width="54"
-                height="54"
-              />
+              <div class="feature-icon-bg">
+                <svg class="feature-icon" width="11" height="18">
+                  <use href="./images/icons.svg#icon-cursor"></use>
+                </svg>
+              </div>
               <h3 class="feature-item-title">First click tests</h3>
               <p class="feature-item-text">
                 While most people enjoy casino gambling,
               </p>
             </li>
             <li class="feature-list-item">
-              <img
-                src="./images/design-surveys.svg"
-                alt="Design surveys"
-                width="54"
-                height="54"
-              />
+              <div class="feature-icon-bg">
+                <svg class="feature-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-wave"></use>
+                </svg>
+              </div>
               <h3 class="feature-item-title">Design surveys</h3>
               <p class="feature-item-text">
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
             <li class="feature-list-item">
-              <img
-                src="./images/preference-tests.svg"
-                alt="Preference tests"
-                width="54"
-                height="54"
-              />
+              <div class="feature-icon-bg">
+                <svg class="feature-icon" width="16" height="18">
+                  <use href="./images/icons.svg#icon-heart"></use>
+                </svg>
+              </div>
               <h3 class="feature-item-title">Preference tests</h3>
               <p class="feature-item-text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="feature-list-item">
-              <img
-                src="./images/five-second-tests.svg"
-                alt="Five second tests"
-                width="54"
-                height="54"
-              />
+              <div class="feature-icon-bg">
+                <svg class="feature-icon" width="14" height="18">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="feature-item-title">Five second tests</h3>
               <p class="feature-item-text">
                 Personal choices and the overall personality of the person.
@@ -141,8 +141,8 @@
         <div class="container offers-container">
           <h2 class="visually-hidden">Services</h2>
           <ul class="offers-list">
+            <!-- BUSINESS MANAGEMENT -->
             <li class="offers-item">
-              <!-- BUSINESS MANAGEMENT -->
               <div class="offer-text-box manage">
                 <p class="offer-subtitle">Effortless Validation for</p>
                 <h2 class="offer-title">Management</h2>
@@ -168,16 +168,15 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/management-img.svg"
-                alt="Management Image"
-                width="540"
-                height="500"
-              />
+              <svg class="icon-management-img" width="540" height="500">
+                <use href="./images/icons.svg#icon-management-img"></use>
+              </svg>
             </li>
             <!-- SUPPORT -->
             <li class="offers-item">
-              <img src="./images/support-img.svg" alt="Support Image" />
+              <svg class="icon-support-img" width="540" height="500">
+                <use href="./images/icons.svg#icon-support-img"></use>
+              </svg>
               <div class="offer-text-box sup">
                 <p class="offer-subtitle">Easier decision making for</p>
                 <h2 class="offer-title">Customer Support</h2>
@@ -188,32 +187,32 @@
                 </p>
                 <ul class="offer-descr-list sup">
                   <li class="offer-descr-item sup">
-                    <span class="icon-tick-bg yellow">
+                    <div class="icon-tick-bg">
                       <svg class="icon-tick" width="16" height="12">
                         <use href="./images/icons.svg#icon-tick"></use>
                       </svg>
-                    </span>
+                    </div>
                     <p class="offer-descr sup-item">
                       Never worry about overpaying for your energy again.
                     </p>
                   </li>
                   <li class="offer-descr-item sup">
-                    <span class="icon-tick-bg red">
+                    <div class="icon-tick-bg">
                       <svg class="icon-tick" width="16" height="12">
                         <use href="./images/icons.svg#icon-tick"></use>
                       </svg>
-                    </span>
+                    </div>
                     <p class="offer-descr sup-item">
                       We will only switch you to energy companies that we trust
                       and will treat you right
                     </p>
                   </li>
                   <li class="offer-descr-item sup">
-                    <span class="icon-tick-bg blue">
+                    <div class="icon-tick-bg">
                       <svg class="icon-tick" width="16" height="12">
                         <use href="./images/icons.svg#icon-tick"></use>
                       </svg>
-                    </span>
+                    </div>
                     <p class="offer-descr sup-item">
                       We track the markets daily and know where the savings are.
                     </p>
@@ -248,12 +247,9 @@
                   </li>
                 </ul>
               </div>
-              <img
-                src="./images/collaboration-img.svg"
-                alt="Collaboration Image"
-                width="540"
-                height="500"
-              />
+              <svg class="icon-collaboration-img" width="540" height="500">
+                <use href="./images/icons.svg#icon-collaboration-img"></use>
+              </svg>
             </li>
           </ul>
         </div>
@@ -274,10 +270,14 @@
                 width="98"
                 height="98"
               />
-              <p class="staff-text">I can take care of your pitch</p>
+              <div class="staff-text-box">
+                <p class="staff-text">I can take care of your pitch</p>
+              </div>
             </li>
             <li class="staff-list-item">
-              <p class="staff-text">I can prototype your app</p>
+              <div class="staff-text-box">
+                <p class="staff-text">I can prototype your app</p>
+              </div>
               <img
                 src="./images/avatar2.png"
                 alt="Avatar 2"
@@ -286,7 +286,9 @@
               />
             </li>
             <li class="staff-list-item">
-              <p class="staff-text">I can take care of your pitch</p>
+              <div class="staff-text-box">
+                <p class="staff-text">I can take care of your pitch</p>
+              </div>
               <img
                 src="./images/avatar3.png"
                 alt="Avatar 3"
@@ -301,7 +303,9 @@
                 width="98"
                 height="98"
               />
-              <p class="staff-text">I can help marketing strategy</p>
+              <div class="staff-text-box">
+                <p class="staff-text">I can help marketing strategy</p>
+              </div>
             </li>
           </ul>
           <button type="button" class="staff-btn">Contact our expert</button>
@@ -310,134 +314,149 @@
       <!-- NEWS-PRICE-FEEDBACK -->
       <section class="feed-section">
         <div class="container feed-container">
-          <h2>About Us</h2>
-          <ul>
+          <h2 class="visually-hidden">About Us</h2>
+          <ul class="feed-list">
             <!-- NEWS FEED -->
-            <li>
-              <h2>Contents Strategies</h2>
-              <p>
+            <li class="feed-item">
+              <h2 class="feed-title">Contents Strategies</h2>
+              <p class="feed-text">
                 We focus on ergonomics and meeting you where you work. It's only
                 a keystroke away.
               </p>
-              <ul>
-                <li>
+              <ul class="feed-sublist news">
+                <li class="feed-subitem news">
                   <img
                     src="./images/image-bg.jpg"
                     alt="Strategy Photo 1"
                     width="350"
                     height="185"
                   />
-                  <p>By Wahid Ari | 03 March 2019</p>
-                  <h3>Increasing Prosperity With Positive Thinking</h3>
+                  <!-- <div class="feed-subitem-box news"> -->
+                  <p class="">
+                    By
+                    <strong>Wahid Ari</strong>
+                    | 03 March 2019
+                  </p>
+                  <h3 class="">Increasing Prosperity With Positive Thinking</h3>
+                  <!-- </div> -->
                 </li>
-                <li>
+                <li class="feed-subitem news">
                   <img
                     src="./images/bitmap1.png"
                     alt="Strategy Photo 2"
                     width="350"
                     height="185"
                   />
-                  <p>By Wahid Ari | 03 March 2019</p>
-                  <h3>Motivation Is The First Step To Success</h3>
+                  <!-- <div class="feed-subitem-box news"> -->
+                  <p class="">
+                    By
+                    <strong>Wahid Ari</strong>
+                    | 03 March 2019
+                  </p>
+                  <h3 class="">Motivation Is The First Step To Success</h3>
+                  <!-- </div> -->
                 </li>
-                <li>
+                <li class="feed-subitem news">
                   <img
                     src="./images/bitmap2.png"
                     alt="Strategy Photo 3"
                     width="350"
                     height="185"
                   />
-                  <p>By Wahid Ari | 03 March 2019</p>
-                  <h3>Success Steps For Your Personal Or Business</h3>
+                  <!-- <div class="feed-subitem-box news"> -->
+                  <p class="">
+                    By
+                    <strong>Wahid Ari</strong>
+                    | 03 March 2019
+                  </p>
+                  <h3 class="">Success Steps For Your Personal Or Business</h3>
+                  <!-- </div> -->
                 </li>
               </ul>
             </li>
             <!-- PRICING -->
-            <li>
-              <h2>Price Table</h2>
-              <p>We offer competitive price</p>
-              <ul>
-                <li>
-                  <h3>Free</h3>
-                  <p>Brief price description</p>
-                  <h4>
+            <li class="feed-item">
+              <h2 class="feed-title">Price Table</h2>
+              <p class="feed-text">We offer competitive price</p>
+              <ul class="feed-sublist">
+                <li class="feed-subitem">
+                  <h3 class="">Free</h3>
+                  <p class="">Brief price description</p>
+                  <h4 class="">
                     0
-                    <span>$</span>
-                    <span>Per / month</span>
+                    <span class="">$</span>
+                    <span class="">Per / month</span>
                   </h4>
-                  <ul>
-                    <li>
-                      <p>Only 2 Operators</p>
+                  <ul class="">
+                    <li class="">
+                      <p class="">Only 2 Operators</p>
                     </li>
-                    <li>
-                      <p>Notifications</p>
+                    <li class="">
+                      <p class="">Notifications</p>
                     </li>
-                    <li>
-                      <p>Landing Pages</p>
+                    <li class="">
+                      <p class="">Landing Pages</p>
                     </li>
                   </ul>
-                  <button type="button">Order Now</button>
+                  <button type="button" class="">Order Now</button>
                 </li>
-                <li>
-                  <h3>Standard</h3>
-                  <p>Brief price description</p>
-                  <h4>
+                <li class="feed-subitem">
+                  <h3 class="">Standard</h3>
+                  <p class="">Brief price description</p>
+                  <h4 class="">
                     5
-                    <span>$</span>
-                    <span>Per / month</span>
+                    <span class="">$</span>
+                    <span class="">Per / month</span>
                   </h4>
-                  <ul>
-                    <li>
-                      <p>5+ Operators</p>
+                  <ul class="">
+                    <li class="">
+                      <p class="">5+ Operators</p>
                     </li>
-                    <li>
-                      <p>Notifications</p>
+                    <li class="">
+                      <p class="">Notifications</p>
                     </li>
-                    <li>
-                      <p>Landing Pages</p>
+                    <li class="">
+                      <p class="">Landing Pages</p>
                     </li>
                   </ul>
-                  <button type="button">Order Now</button>
+                  <button type="button" class="">Order Now</button>
                 </li>
-                <li>
-                  <h3>Premium</h3>
-                  <p>Brief price description</p>
-                  <h4>
+                <li class="feed-subitem">
+                  <h3 class="">Premium</h3>
+                  <p class="">Brief price description</p>
+                  <h4 class="">
                     10
-                    <span>$</span>
-                    <span>Per / month</span>
+                    <span class="">$</span>
+                    <span class="">Per / month</span>
                   </h4>
-                  <ul>
-                    <li>
-                      <p>10+ Operators</p>
+                  <ul class="">
+                    <li class="">
+                      <p class="">10+ Operators</p>
                     </li>
-                    <li>
-                      <p>Notifications</p>
+                    <li class="">
+                      <p class="">Notifications</p>
                     </li>
-                    <li>
-                      <p>Landing Pages</p>
+                    <li class="">
+                      <p class="">Landing Pages</p>
                     </li>
                   </ul>
-                  <button type="button">Order Now</button>
+                  <button type="button" class="">Order Now</button>
                 </li>
               </ul>
             </li>
             <!-- FEEDBACK -->
-            <li>
-              <h2>What Clients Say</h2>
-              <p>
+            <li class="feed-item">
+              <h2 class="feed-title">What Clients Say</h2>
+              <p class="feed-text">
                 Problems trying to resolve the conflict between the two major
                 realms of Classical physics: Newtonian mechanics
               </p>
-              <ul>
-                <li>
-                  <img
-                    src="./images/review-4-stars.svg"
-                    alt="4-Star Review"
-                    width="106"
-                    height="18"
-                  />
-                  <p>
+              <ul class="feed-sublist">
+                <li class="feed-subitem">
+                  <svg class="icon-review" width="106" height="18">
+                    <use href="./images/icons.svg#icon-review"></use>
+                  </svg>
+                  <p class="">
                     Product helps you see how many more days you need to work to
                     reach your financial goal.
                   </p>
@@ -447,17 +466,14 @@
                     width="50"
                     height="50"
                   />
-                  <a href="">Wahid Ari</a>
-                  <p>Designer</p>
+                  <a href="" class="">Wahid Ari</a>
+                  <p class="">Designer</p>
                 </li>
-                <li>
-                  <img
-                    src="./images/review-4-stars.svg"
-                    alt="4-Star Review"
-                    width="106"
-                    height="18"
-                  />
-                  <p>
+                <li class="feed-subitem">
+                  <svg class="icon-review" width="106" height="18">
+                    <use href="./images/icons.svg#icon-review"></use>
+                  </svg>
+                  <p class="">
                     Product helps you see how many more days you need to work to
                     reach your financial goal.
                   </p>
@@ -467,17 +483,14 @@
                     width="50"
                     height="50"
                   />
-                  <a href="">Wahid Ari</a>
-                  <p>Designer</p>
+                  <a href="" class="">Wahid Ari</a>
+                  <p class="">Designer</p>
                 </li>
-                <li>
-                  <img
-                    src="./images/review-4-stars.svg"
-                    alt="4-Star Review"
-                    width="106"
-                    height="18"
-                  />
-                  <p>
+                <li class="feed-subitem">
+                  <svg class="icon-review" width="106" height="18">
+                    <use href="./images/icons.svg#icon-review"></use>
+                  </svg>
+                  <p class="">
                     Product helps you see how many more days you need to work to
                     reach your financial goal.
                   </p>
@@ -487,8 +500,8 @@
                     width="50"
                     height="50"
                   />
-                  <a href="">Wahid Ari</a>
-                  <p>Designer</p>
+                  <a href="" class="">Wahid Ari</a>
+                  <p class="">Designer</p>
                 </li>
               </ul>
             </li>
@@ -498,60 +511,122 @@
       <!-- PROMO -->
       <section class="promo-section">
         <div class="container promo-container">
-          <h2>Join 100 Compannies who boost their business with Product</h2>
-          <button type="button">Get This</button>
-          <img
-            src="./images/promo-img.png"
-            alt="Promo Image"
-            width="351"
-            height="331"
-          />
+          <div class="promo-content-box">
+            <div class="promo-text-box">
+              <h2 class="promo-title">
+                Join 100 Compannies who boost their business with Product
+              </h2>
+              <button type="button" class="promo-btn">Get This</button>
+            </div>
+            <img
+              src="./images/promo-img.png"
+              alt="Promo Image"
+              width="351"
+              height="331"
+            />
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer-section">
       <div class="container footer-container">
-        <a href="./index.html">
-          <img src="./images/logo.svg" alt="Logo" />
-          Product
-        </a>
-        <ul>
-          <!-- <li><img src="./images/instagram.svg" alt="Instagram Logo" /></li>
-          <li><img src="./images/facebook.svg" alt="Facebook Logo" /></li>
-          <li><img src="./images/twitter.svg" alt="Twitter Logo" /></li> -->
-        </ul>
-        <nav>
-          <ul>
-            <li>
-              <h4><a href="">Resource</a></h4>
-              <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">FAQ</a></li>
-              </ul>
-            </li>
-            <li>
-              <h4><a href="">Legal Stuff</a></h4>
-              <ul>
-                <li><a href="">Disclaimer</a></li>
-                <li><a href="">Financing</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <h4>knowing you're always on the best energy deal.</h4>
-        <!-- <img
-          src="./images/mobile-screen.svg"
-          alt="Mobile Screen"
-          width="18"
-          height="28"
-        />
-        Enter your phone number -->
-        <button type="submit">Sign up Now</button>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+        <div class="footer-upper">
+          <div class="footer-socials-box">
+            <a href="./index.html" class="logo footer-logo">
+              <svg class="icon-logo" width="40" height="36">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              Product
+            </a>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg
+                    class="footer-icon icon-instagram"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-icon icon-facebook" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-icon icon-twitter" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h4 class="footer-subtitle">
+                  <a href="" class="footer-nav-link">Resource</a>
+                </h4>
+                <ul>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">About Us</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Blog</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Contact</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-nav-item">
+                <h4 class="footer-subtitle">
+                  <a href="" class="footer-nav-link">Legal Stuff</a>
+                </h4>
+                <ul>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Disclaimer</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Financing</a>
+                  </li>
+                  <li class="footer-nav-contact">
+                    <a href="" class="footer-nav-link">Privacy Policy</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-form-box">
+            <p class="footer-form-title">
+              knowing you're always on the best energy deal.
+            </p>
+            <form class="footer-form">
+              <label for="user-tel" class="footer-input-label">
+                <input
+                  type="tel"
+                  name="user-tel"
+                  id="user-tel"
+                  class="footer-form-input"
+                  placeholder="Enter your phone number"
+                />
+                <svg class="icon-mobile-screen" width="16" height="24">
+                  <use href="./images/icons.svg#icon-mobile-screen"></use>
+                </svg>
+              </label>
+              <button type="submit" class="footer-form-btn">Sign up Now</button>
+            </form>
+          </div>
+        </div>
+        <p class="footer-ps">Made With Love By Figmaland All Right Reserved</p>
       </div>
     </footer>
   </body>
