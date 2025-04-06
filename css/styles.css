@@ -773,7 +773,7 @@ button {
 /* ---------FEED--------- */
 /* ---------PROMO--------- */
 .promo-section {
-  padding: 100px 0 150px;
+  padding: 150px 0;
 }
 
 /* .promo-container {} */
@@ -1004,8 +1004,196 @@ button {
 /* ---------FOOTER--------- */
 /* ---------PRODUCT--------- */
 /* ---------PRICING--------- */
+/* ---------PRICING-S--------- */
+.pricing-section {
+  padding: 50px 0 150px;
+}
+
+.feed-pretitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.feed-title.pricing {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.feed-text.pricing {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 49px;
+}
+/* ---------PRICING-S--------- */
+/* ---------ENTERPRISE--------- */
+.enterprise-section {
+  padding: 52px 0;
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.enterprise-pretitle {
+  margin-bottom: 16px;
+}
+
+.enterprise-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.enterprise-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.enterprise-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  min-width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.enterprise-btn:hover,
+.enterprise-btn:focus {
+  text-decoration: underline;
+  color: #02897a;
+  background-color: transparent;
+  border: transparent;
+}
+/* ---------ENTERPRISE--------- */
 /* ---------PRICING-PROMO--------- */
+.pricing-promo-section {
+  padding: 150px 0;
+}
+
+.pricing-promo-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.pricing-promo-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.icon-devices {
+  flex-shrink: 0;
+}
+
+.pricing-promo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pricing-promo-item {
+  flex-basis: calc((100% - 64px) / 3);
+}
+
+.pricing-icon-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.pricing-icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f5f7;
+}
+
+/* .pricing-promo-icon {} */
+
+.pricing-promo-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.pricing-promo-subtext {
+  line-height: 1.75;
+}
 /* ---------PRICING-PROMO--------- */
+/* ---------FAQ--------- */
+/* .faq-section {} */
+
+.faq-container {
+  width: 960px;
+  padding: 20px 0;
+}
+
+.faq-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.faq-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  flex-basis: calc((100% - 48px) / 4);
+  position: relative;
+}
+
+.faq-item::after {
+  height: 5;
+  border: 1px solid #e7e7e7;
+  position: absolute;
+  bottom: 0;
+}
+
+.faq-subtitle {
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.faq-subtitle::before {
+  content: '+';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 22px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #02897a;
+}
+/* ---------FAQ--------- */
 /* ---------PRICING--------- */
 /* ---------CUSTOMERS--------- */
 /* ---------CUSTOMERS--------- */
