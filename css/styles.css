@@ -3,6 +3,7 @@ body {
   font-family: var(--font-family);
   color: #22343d;
   background-color: #fff;
+  line-height: 1.5;
 }
 
 :root {
@@ -296,10 +297,12 @@ button {
 .feature-item-title {
   margin-top: 26px;
   margin-bottom: 13px;
+  line-height: 33px;
 }
 
 .feature-item-text {
   max-width: 255px;
+  line-height: 26px;
 }
 
 .feature-btn {
@@ -537,6 +540,10 @@ button {
   gap: 100px;
 }
 
+.feed-img {
+  height: 185px;
+}
+
 .feed-title {
   font-size: 34px;
   margin-bottom: 10px;
@@ -549,7 +556,7 @@ button {
 
 .feed-text {
   font-weight: 500;
-  line-height: 1.75;
+  line-height: 26px;
 }
 
 .feed-sublist {
@@ -579,7 +586,7 @@ button {
 
 .feed-subitem-name {
   font-size: 24px;
-  line-height: 1.67;
+  line-height: 40px;
 }
 
 .accent.news {
@@ -615,6 +622,7 @@ button {
 .feed-item:nth-child(2) > .feed-text {
   text-align: center;
   margin-bottom: 40px;
+  line-height: inherit;
 }
 
 .feed-subitem-name.price {
@@ -636,7 +644,7 @@ button {
 
 .feed-subitem-item {
   font-weight: 500;
-  line-height: 1.38;
+  line-height: 22px;
   letter-spacing: 0.01em;
 }
 
@@ -680,7 +688,7 @@ button {
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 76px;
-  line-height: 1.32;
+  line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
@@ -721,12 +729,15 @@ button {
 
 .feed-item:nth-child(3) > .feed-title {
   text-align: center;
+  line-height: 57px;
+  margin-bottom: 8px;
 }
 
 .feed-item:nth-child(3) > .feed-text {
   margin: 0 auto 40px;
   text-align: center;
   max-width: 537px;
+  line-height: 28px;
 }
 
 .feed-sublist.feedback {
@@ -749,12 +760,11 @@ button {
   line-height: 1.75;
   letter-spacing: 0.01em;
   color: #737373;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .feed-reviewer-name {
   font-weight: 600;
-  line-height: 1.5;
   letter-spacing: 0.01em;
   color: #02897a;
 }
@@ -796,7 +806,6 @@ button {
 .promo-title {
   font-weight: 600;
   font-size: 32px;
-  line-height: 1.514;
   color: #fff;
   max-width: 510px;
   margin-bottom: 46px;
@@ -822,6 +831,13 @@ button {
   color: #fff;
   background-color: transparent;
 }
+
+.promo-img {
+  border-radius: 5px;
+  width: 351px;
+  height: 331px;
+  background-image: url(../images/promo-img.png);
+}
 /* ---------PROMO--------- */
 /* ---------FOOTER--------- */
 .footer-section {
@@ -832,6 +848,7 @@ button {
 
 .footer-upper {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .footer-socials-box {
@@ -896,7 +913,9 @@ button {
   gap: 129px;
 }
 
-/* .footer-nav-item {} */
+.footer-nav-item:nth-child(1) {
+  padding: 0 24px 27px 0;
+}
 
 .footer-subtitle {
   font-weight: 500;
@@ -906,7 +925,7 @@ button {
 }
 
 .footer-nav-contact {
-  line-height: 2.19;
+  line-height: 35px;
 }
 
 .footer-nav-link {
@@ -947,6 +966,11 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* .footer-form-input:hover + .icon-mobile-screen, */
+.footer-form-input:focus + .icon-mobile-screen {
+  fill: #22343d;
+}
+
 .footer-form-input {
   color: #22343d;
   border: 1px solid #bcd0e5;
@@ -959,24 +983,20 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* .footer-form-input:hover, */
+.footer-form-input:focus {
+  border-color: #22343d;
+}
+
 .footer-form-input::placeholder {
   line-height: 1.75;
   color: #02897a;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-input:hover::placeholder,
+/* .footer-form-input:hover::placeholder, */
 .footer-form-input:focus::placeholder {
   color: #22343d;
-}
-
-.footer-form-input:focus {
-  border-color: #02897a;
-}
-
-.footer-form-input:hover + .icon-mobile-screen,
-.footer-form-input:focus + .icon-mobile-screen {
-  fill: #22343d;
 }
 
 .footer-form-btn {
@@ -1004,9 +1024,8 @@ button {
 }
 
 .footer-ps {
-  line-height: 1.86;
+  line-height: 1.94;
   text-align: center;
-  margin-top: 16px;
 }
 
 /* ---------FOOTER--------- */
@@ -1033,6 +1052,7 @@ button {
 
 .feed-text.pricing {
   font-weight: 500;
+  line-height: inherit;
   text-align: center;
   margin-bottom: 49px;
 }
@@ -1143,6 +1163,10 @@ button {
 .pricing-promo-subtext {
   line-height: 1.75;
 }
+
+.pricing-promo-item:nth-child(3) .pricing-promo-subtext {
+  max-width: 506px;
+}
 /* ---------PRICING-PROMO--------- */
 /* ---------FAQ--------- */
 /* .faq-section {} */
@@ -1206,7 +1230,7 @@ button {
 /* ---------CUSTOMERS--------- */
 /* ---------HERO--------- */
 .customer-hero-section {
-  padding: 100px 0;
+  padding: 100px 0 117px;
 }
 
 .customer-hero-container {
@@ -1214,6 +1238,7 @@ button {
 }
 
 .customer-title {
+  line-height: 1.5;
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
@@ -1223,7 +1248,12 @@ button {
   margin: 0 auto;
   padding: 16px 0;
   display: flex;
-  gap: 64px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer-hero-item {
+  max-height: 50px;
 }
 
 .hero-icon {
@@ -1239,6 +1269,7 @@ button {
 /* .customer-why-container {} */
 
 .customer-why-title {
+  line-height: 1.5;
   font-size: 34px;
   text-align: center;
   margin-bottom: 50px;
@@ -1254,6 +1285,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 32px 0;
 }
 
 .why-icon-bg {
@@ -1299,24 +1333,25 @@ button {
 /* ---------WHY--------- */
 /* ---------INSTRUCTION--------- */
 .customer-instruction-section {
-  padding: 100px 0;
+  padding: 100px 0 115px;
 }
 
 .customer-instruction-title {
   font-size: 34px;
+  line-height: 1.5;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 74px;
 }
 
 .customer-instruction-list {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  height: 1038.38px;
-  margin-bottom: 80px;
+  margin-bottom: 77px;
 }
 
 .customer-instruction-item {
+  flex-basis: calc((100% - 200px) / 3);
   display: flex;
   justify-content: space-between;
 }
@@ -1390,6 +1425,7 @@ button {
 
 .customer-offer-title {
   font-size: 32px;
+  line-height: 1.5;
   text-align: center;
   max-width: 537px;
   margin: 0 auto 93px;
