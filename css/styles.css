@@ -1028,7 +1028,7 @@ button {
 /* ---------PRICING--------- */
 /* ---------PRICING-S--------- */
 .pricing-section {
-  padding: 50px 0 150px;
+  padding: 130px 0 150px;
 }
 
 .feed-pretitle {
@@ -1196,13 +1196,6 @@ button {
   padding-bottom: 22px;
 }
 
-/* .faq-item::after {
-  height: 1;
-  border: 1px solid #e7e7e7;
-  position: absolute;
-  bottom: 0;
-} */
-
 .faq-subtitle {
   font-weight: 500;
   font-size: 18px;
@@ -1222,12 +1215,16 @@ button {
   background-color: #02897a;
   margin-right: 16px;
 }
+
+.faq-subtext {
+  margin-top: 14px;
+}
 /* ---------FAQ--------- */
 /* ---------PRICING--------- */
 /* ---------CUSTOMERS--------- */
 /* ---------HERO--------- */
 .customer-hero-section {
-  padding: 100px 0 117px;
+  padding: 180px 0 117px;
 }
 
 .customer-hero-container {
