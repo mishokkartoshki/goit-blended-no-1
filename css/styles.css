@@ -800,12 +800,8 @@ button {
   padding: 0 20px;
   background-color: #02897a;
   border-radius: 32px;
-  padding: 4px 46px 10px 51px;
+  padding: 46px 46px 46px 51px;
   display: flex;
-}
-
-.promo-text-box {
-  margin: 45px 10px 46px 0;
 }
 
 .promo-title {
