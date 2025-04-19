@@ -1,4 +1,8 @@
 /* ---------GLOBAL--------- */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-family);
   color: #22343d;
@@ -67,13 +71,14 @@ button {
 }
 /* ---------GLOBAL--------- */
 /* ---------HEADER--------- */
-/* .header {
+.header {
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 999;
   background-color: #fff;
   width: 100%;
-} */
+}
 
 .header-container {
   display: flex;
@@ -154,8 +159,8 @@ button {
 /* ---------PRODUCT--------- */
 /* ---------HERO--------- */
 .hero-section {
-  padding-top: 25px;
-  /* padding-top: 115px; */
+  /* padding-top: 25px; */
+  padding-top: 115px;
   padding-bottom: 100px;
 }
 
@@ -832,12 +837,6 @@ button {
   background-color: transparent;
 }
 
-.promo-img {
-  border-radius: 5px;
-  width: 351px;
-  height: 331px;
-  background-image: url(../images/promo-img.png);
-}
 /* ---------PROMO--------- */
 /* ---------FOOTER--------- */
 .footer-section {
@@ -1197,17 +1196,18 @@ button {
 .faq-item {
   flex-basis: calc((100% - 48px) / 4);
   position: relative;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 22px;
 }
 
-.faq-item::after {
-  height: 5;
+/* .faq-item::after {
+  height: 1;
   border: 1px solid #e7e7e7;
   position: absolute;
   bottom: 0;
-}
+} */
 
 .faq-subtitle {
-  padding-left: 16px;
   font-weight: 500;
   font-size: 18px;
 }
@@ -1224,6 +1224,7 @@ button {
   border-radius: 50%;
   color: #fff;
   background-color: #02897a;
+  margin-right: 16px;
 }
 /* ---------FAQ--------- */
 /* ---------PRICING--------- */
@@ -1287,7 +1288,7 @@ button {
   align-items: center;
   border: 1px solid #dedede;
   border-radius: 10px;
-  padding: 32px 0;
+  padding: 32px 22px;
 }
 
 .why-icon-bg {
